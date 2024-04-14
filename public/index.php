@@ -50,14 +50,15 @@
     </nav>
 
     <!-- Banner -->
-    <div class="container-fluid p-0 mb-5" style="height: 450px;">
-        <div class="row h-100">
+    <div class="container-fluid p-0 mb-5">
+        <div class="row">
             <div class="col image-text-container">
-                <div class="banner-image h-100">
-                    <div class="centered-text">
-                        <h2>UNIQUELY <span id="banner-text-color">FRESH TASTE</span></h2>
+                <div class="banner-image d-flex justify-content-center align-items-center">
+                    <!-- <div class="w-50 mx-auto banner-text"> -->
+                    <div class="banner-text p-3">
+                        <h2 class="display-3">UNIQUELY <span id="banner-text-color">FRESH TASTE</span></h2>
                         <p>Try our tasty coffee bean. produced with unique taste.</p>
-                        <a href="#">Learn More</a>
+                        <a href="#" class="btn btn-dark text-light border-0">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -66,65 +67,66 @@
 
     <!-- Ads area 1 -->
     <div class="container mb-5">
-        <div class="row h-100 g-3">
+        <div class="row g-3">
 
             <div class="col-md-6 image-text-container">
-                <div class="ad1" style="height: 250px;">
-                    <div class="centered-text">
-                        <h3>SEASONAL COFFEE <br>FLAVOURS</h3>
-                        <a href="#">READ MORE</a>
+                <div class="ad-image ad1-image d-flex justify-content-center align-items-center">
+                    <div class="ad-text p-3">
+                        <h3 class="fs-4">SEASONAL COFFEE <br>FLAVOURS</h3>
+                        <a class="text-white" href="#">READ MORE</a>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-6 image-text-container">
-                <div class="ad2" style="height: 250px;">
-                    <div class="centered-text">
-                        <h3>COFFEE BUNDLE <br>PACKAGES</h3>
-                        <a href="#">READ MORE</a>
+                <div class="ad-image ad2-image d-flex justify-content-center align-items-center">
+                    <div class="ad-text p-3">
+                        <h3 class="fs-4">COFFEE BUNDLE <br>PACKAGES</h3>
+                        <a class="text-white" href="#">READ MORE</a>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 
     <!-- Heading -->
-    <div class="container">
-        <div class="heading">
-            <span>What happens here</span>
-            <h2>COFFEE HOUSE MERCHANDISE</h2>
-            <hr>
+    <div class="container mb-3">
+        <div class="w-75 mx-auto text-center heading">
+            <span class="fst-italic">What happens here</span>
+            <h2 class="m-0 fs-5">COFFEE HOUSE MERCHANDISE</h2>
+            <hr class="border-2 m-0">
         </div>
     </div>
 
     <!-- Merchandise -->
     <div class="container mb-5">
-        <!-- <div class="row h-100 g-3"> -->
         <div class="row g-3">
+
             <div class="col-6 col-md-3" id="item1">
                 <img class="img-fluid" src="images/merch-img1.jpg" alt="Arabica - Extra Course">
-                <h3>Arabica - Extra Course</h3>
+                <h3 class="fs-6 fw-bold">Arabica - Extra Course</h3>
                 <span>*****</span>
                 <p>$70.00</p>
             </div>
 
             <div class="col-6 col-md-3" id="item2">
                 <img class="img-fluid" src="images/merch-img2.jpg" alt="Arabica - Fine Grind">
-                <h3>Arabica - Fine Grind</h3>
+                <h3 class="fs-6 fw-bold">Arabica - Fine Grind</h3>
                 <span>*****</span>
                 <p>$70.00</p>
             </div>
 
             <div class="col-6 col-md-3" id="item3">
                 <img class="img-fluid" src="images/merch-img3.jpg" alt="French Vanilla">
-                <h3>French Vanilla</h3>
+                <h3 class="fs-6 fw-bold">French Vanilla</h3>
                 <span>*****</span>
                 <p>$80.00</p>
             </div>
 
             <div class="col-6 col-md-3" id="item4">
                 <img class="img-fluid" src="images/merch-img4.jpg" alt="Deluxe Chocolate">
-                <h3>Deluxe Chocolate</h3>
+                <h3 class="fs-6 fw-bold">Deluxe Chocolate</h3>
                 <span>*****</span>
                 <p>$100.00</p>
             </div>
@@ -132,28 +134,28 @@
 
             <div class="col-6 col-md-3" id="item5">
                 <img class="img-fluid" src="images/merch-img5.jpg" alt="Original Beans">
-                <h3>Original Beans</h3>
+                <h3 class="fs-6 fw-bold">Original Beans</h3>
                 <span>*****</span>
                 <p>$100.00</p>
             </div>
 
             <div class="col-6 col-md-3" id="item6">
                 <img class="img-fluid" src="images/merch-img6.jpg" alt="Paper Pouch">
-                <h3>Paper Pouch</h3>
+                <h3 class="fs-6 fw-bold">Paper Pouch</h3>
                 <span>*****</span>
                 <p>$71.00</p>
             </div>
 
             <div class="col-6 col-md-3" id="item7">
                 <img class="img-fluid" src="images/merch-img7.jpg" alt="Freshly Picked">
-                <h3>Freshly Picked</h3>
+                <h3 class="fs-6 fw-bold">Freshly Picked</h3>
                 <span>*****</span>
                 <p>$71.00</p>
             </div>
 
             <div class="col-6 col-md-3" id="item8">
                 <img class="img-fluid" src="images/merch-img8.jpg" alt="Mug">
-                <h3>Mug</h3>
+                <h3 class="fs-6 fw-bold">Mug</h3>
                 <span>*****</span>
                 <p>$25.00</p>
             </div>
@@ -162,14 +164,14 @@
     </div>
 
     <!-- Discount -->
-    <div class="container mb-5" style="height: 250px;">
-        <div class="row h-100 g-3">
+    <div class="container mb-5">
+        <div class="row">
             <div class="col-md image-text-container">
-                <div class="discount-image h-100">
-                    <div class="centered-text">
-                        <p id="discount-text1">We brew them fresh daily</p>
-                        <p id="discount-text2">MEMBER'S DISCOUNTS UP TO 40%</p>
-                        <button>View Products</button>
+                <div class="discount-image d-flex justify-content-center align-items-center">
+                    <div class="discount-text text-center p-3">
+                        <p class="discount-text1 fst-italic">We brew them fresh daily</p>
+                        <p class="discount-text2 fs-4">MEMBER'S DISCOUNTS UP TO 40%</p>
+                        <button class="btn btn-light text-white border-0">View Products</button>
                     </div>
                 </div>
             </div>
@@ -177,45 +179,46 @@
     </div>
 
     <!-- Heading -->
-    <div class="container">
-        <div class="heading">
-            <span>What happens here</span>
-            <h2>MERCHANDISE SALE</h2>
-            <hr>
+    <div class="container mb-3">
+        <div class="w-75 mx-auto text-center heading">
+            <span class="fst-italic">What happens here</span>
+            <h2 class="m-0 fs-5">MERCHANDISE SALE</h2>
+            <hr class="border-2 m-0">
         </div>
     </div>
-
 
     <!-- Sale -->
     <div class="container mb-5">
         <div class="row g-3">
+
             <div class="col-6 col-md-3" id="item9">
                 <img class="img-fluid" src="images/merch-img9.jpg" alt="Arabica with cup">
-                <h3>Arabica with cup</h3>
+                <h3 class="fs-6 fw-bold">Arabica with cup</h3>
                 <span>*****</span>
                 <p>$90.00</p>
             </div>
 
             <div class="col-6 col-md-3" id="item10">
                 <img class="img-fluid" src="images/merch-img10.jpg" alt="Double Arabica">
-                <h3>Double Arabica</h3>
+                <h3 class="fs-6 fw-bold">Double Arabica</h3>
                 <span>*****</span>
                 <p>$120.00</p>
             </div>
 
             <div class="col-6 col-md-3" id="item11">
                 <img class="img-fluid" src="images/merch-img11.jpg" alt="Paper Pouch">
-                <h3>Paper Pouch</h3>
+                <h3 class="fs-6 fw-bold">Paper Pouch</h3>
                 <span>*****</span>
                 <p>$100.00</p>
             </div>
 
             <div class="col-6 col-md-3" id="item12">
                 <img class="img-fluid" src="images/merch-img12.jpg" alt="Double Mug">
-                <h3>Double Mug</h3>
+                <h3 class="fs-6 fw-bold">Double Mug</h3>
                 <span>*****</span>
                 <p>$40.00</p>
             </div>
+
         </div>
     </div>
 
@@ -224,37 +227,37 @@
         <div class="row g-3">
 
             <div class="col-md-6 image-text-container">
-                <div class="ad3" style="height: 250px;">
-                    <div class="centered-text">
-                        <h3>COFFEE BEAN <br>VARIETIES</h3>
-                        <a href="#">READ MORE</a>
+                <div class="ad-image ad3-image d-flex justify-content-center align-items-center">
+                    <div class="ad-text  p-3">
+                        <h3 class="fs-4">COFFEE BEAN <br>VARIETIES</h3>
+                        <a class="text-white" href="#">READ MORE</a>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-6 image-text-container">
-                <div class="ad4" style="height: 250px;">
-                    <div class="centered-text">
-                        <h3>OUR BARISTA'S <br>FAVORITE</h3>
-                        <a href="#">READ MORE</a>
+                <div class="ad-image ad4-image d-flex justify-content-center align-items-center">
+                    <div class="ad-text p-3">
+                        <h3 class="fs-4">OUR BARISTA'S <br>FAVORITE</h3>
+                        <a class="text-white" href="#">READ MORE</a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md image-text-container">
-                <div class="ad5" style="height: 250px;">
-                    <div class="centered-text">
-                        <h3>THE COFFEE - BEST <br>SELLERS</h3>
-                        <a href="#">READ MORE</a>
+            <div class="col-md-6 image-text-container">
+                <div class="ad-image ad5-image d-flex justify-content-center align-items-center">
+                    <div class="ad-text p-3">
+                        <h3 class="fs-4">THE COFFEE - BEST <br>SELLERS</h3>
+                        <a class="text-white" href="#">READ MORE</a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md image-text-container">
-                <div class="ad6" style="height: 250px;">
-                    <div class="centered-text">
-                        <h3>MORE THAN JUST <br>THE COFFEE</h3>
-                        <a href="#">READ MORE</a>
+            <div class="col-md-6 image-text-container">
+                <div class="ad-image ad6-image d-flex justify-content-center align-items-center">
+                    <div class="ad-text p-3">
+                        <h3 class="fs-4">MORE THAN JUST <br>THE COFFEE</h3>
+                        <a class="text-white" href="#">READ MORE</a>
                     </div>
                 </div>
             </div>
@@ -263,10 +266,10 @@
     </div>
 
     <!-- Heading -->
-    <div class="container">
-        <div class="heading">
-            <h2>RESERVATION FORM</h2>
-            <hr>
+    <div class="container mb-3">
+        <div class="w-75 mx-auto text-center heading">
+            <h2 class="m-0 fs-5 ">RESERVATION FORM</h2>
+            <hr class="border-2 m-0">
         </div>
     </div>
 
@@ -274,60 +277,110 @@
     <form action="">
         <div class="container mb-5">
             <div class="row">
-                <div class="col-md-6">
-                    <label for="fname">Full Name</label>
-                    <input type="text" id="full-name" placeholder="Last Name, First Name">
+                <!-- Col 1 -->
+                <div class="col-md-6 pt-3 px-4 form-items-container">
+                    <!-- Full Name -->
+                    <div class="row mb-3">
+                        <label for="full-name" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="full-name" placeholder="Last Name, First Name">
+                    </div>
+                    <!-- Email Address -->
+                    <div class="row mb-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="email" placeholder="mail@mail.com">
+                    </div>
+                    <!-- Phone Number -->
+                    <div class="row mb-3">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="(+63) 912345678">
+                    </div>
 
-                    <label for="email">Email Address</Address></label>
-                    <input type="email" id="email" placeholder="mail@mail.com">
+                    <!-- Heading -->
+                    <div class="row">
+                        <h4 class="fs-6 fw-bold text-center mb-3">Reservation Details</h4>
+                    </div>
 
-                    <label for="phone">Phone Number</label>
-                    <input type="text" id="phone" placeholder="(+63) 912345678">
+                    <!-- Number of Guest -->
+                    <div class="row mb-3">
+                        <label for="num-guest" class="form-label">Number of Guest</label>
+                        <select class="form-select" name="num-guest" id="num-guest">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="more than 4">more than 4</option>
+                        </select>
+                    </div>
 
-                    <p class="forms-heading">Reservation Details</p>
+                    <!-- Reservation Date -->
+                    <div class="row mb-3">
+                        <label for="date" class="form-label">Reservation Date</label>
+                        <input type="date" class="form-control" name="date" id="date">
+                    </div>
 
-                    <label for="num-guest">Number of Guest</label>
-                    <select name="num-guest" id="num-guest">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="more than 4">more than 4</option>
-                    </select>
+                    <!-- Heading -->
+                    <div class="row mb-3">
+                        <h4 class="fs-6 fw-bold text-center">Reservation Time</h4>
+                    </div>
 
-                    <label for="date">Reservation Date</label>
-                    <input type="date" name="date" id="date">
-
-                    <p class="forms-heading">Reservation Time</p>
-                    <div class="radio-container">
-                        <input class="radio-input" type="radio" name="time" id="morning" value="morning">
-                        <label class="radio-label" for="morning">Morning</label>
-                        <input class="radio-input" type="radio" name="time" id="afternoon" value="afternoon">
-                        <label class="radio-label" for="afternoon">Afternoon</label>
-                        <input class="radio-input" type="radio" name="time" id="night" value="night">
-                        <label class="radio-label" for="night">Night</label>
+                    <!-- Reservation Time -->
+                    <div class="form-check form-check-inline mb-3">
+                        <input class="form-check-input" type="radio" name="time" id="morning" value="morning">
+                        <label class="form-check-label" for="morning">Morning</label>
+                    </div>
+                    <div class="form-check form-check-inline mb-3">
+                        <input class="form-check-input" type="radio" name="time" id="afternoon" value="afternoon">
+                        <label class="form-check-label" for="afternoon">Afternoon</label>
+                    </div>
+                    <div class="form-check form-check-inline mb-3">
+                        <input class="form-check-input" type="radio" name="time" id="night" value="night">
+                        <label class="form-check-label" for="night">Night</label>
                     </div>
                 </div>
 
-                <div class="col-md-6">
-                    <label for="request">Additional Request</label>
-                    <textarea name="request" id="request" cols="" rows=""></textarea>
+                <!-- Col 2 -->
+                <div class="col-md-6 pt-3 px-4 form-items-container">
+                    <!-- Additional Request -->
+                    <div class="row mb-3">
+                        <label for="request" class="form-label">Additional Request</label>
+                        <textarea name="request" class="form-control" id="request" cols="" rows="5"></textarea>
+                    </div>
 
-                    <p id="payment-title">PAYMENT</p>
-                    <img id="payment-cards" src="images/reservation-cards.png" alt="reservation-cards">
+                    <!-- PAYMENT -->
+                    <div class="row mb-3">
+                        <h4 class="m-0 fs-6 fw-bold text-center">PAYMENT</h4>
+                        <!-- <div class="w-50 mx-auto"> -->
+                        <img class="image-fluid w-50 mx-auto" id="payment-cards" src="images/reservation-cards.png" alt="reservation-cards">
+                        <!-- </div> -->
+                    </div>
 
-                    <p class="forms-heading">Payment Accepted Cards</p>
+                    <!-- Heading -->
+                    <div class="row mb-3">
+                        <h4 class="fs-6 fw-bold text-center">Payment Accepted Cards</h4>
+                    </div>
 
-                    <label for="pay-name">Full Name</label>
-                    <input type="text" id="pay-name" placeholder="John Doe">
+                    <!-- Card Name -->
+                    <div class="row mb-3">
+                        <label for="card-name" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="card-name" placeholder="JOHN DOE">
+                    </div>
 
-                    <label for="card-num">Credit Card Number</label>
-                    <input type="text" id="card-num" placeholder="1234567890">
+                    <!-- Card Number -->
+                    <div class="row mb-3">
+                        <label for="card-num" class="form-label">Credit Card Number</label>
+                        <input type="text" class="form-control" id="card-num" placeholder="1234567890">
+                    </div>
 
-                    <input type="checkbox" name="terms" id="terms">
-                    <label id="terms-label" for="terms">I agree in the terms and conditions.</label>
+                    <!-- Terms -->
+                    <div class="form-check form-check-inline mb-3">
+                        <input class="form-check-input" type="checkbox" id="terms" name="terms" >
+                        <label class="form-check-label" for="terms">I agree in the terms and conditions.</label>
+                    </div>
 
-                    <button id="send-button">SEND</button>
+                    <!-- Send button -->
+                    <div class="row mb-3">
+                        <button class="btn btn-light text-dark w-100 form-send-button">SEND</button>
+                    </div>
                 </div>
             </div>
         </div>

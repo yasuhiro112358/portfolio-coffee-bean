@@ -5,425 +5,123 @@ body {
     font-family: sans-serif;
 }
 
-/* .container { */
-    /* width: 1440px;
-    height: 100%;
-    margin: 0 auto; */
-/* } */
-
-
-/* ==== Header ==== */
-/* header {
-    height: 48px;
+.image-text-container {
+    color: white;
 }
 
-header h1 {
-    float: left;
-    line-height: 48px;
-    margin-left: 7.5%;
-    font-size: 24px;
+
+
+/* ==== Navbar ==== */
+.navbar .navbar-brand {
     color: #96746b;
     font-weight: bold;
 }
 
-header ul {
-    float: right;
-    padding: 18px 0;
-    margin-right: 7.5%;
-}
-
-header li {
-    float: right;
-    margin-left: 24px;
-}
-
-header li a {
-    text-decoration: none;
-    color: black;
-} */
-
-
 /* ==== Banner ==== */
-.image-text-container {
-    position: relative;
-    text-align: center;
-    color: white;
-}
 .banner-image {
+    height: 400px;
     background-image: url("../images/banner-bg.jpg");
-    height: 900px;
     background-position: center;
-    /* background-repeat: no-repeat; */
     background-size: cover;
-}
-.centered-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 20px;
-}
-
-/* ==== Old Banner ==== */
-/* .banner {
-    height: 560px;
-    margin-bottom: 64px;
-} */
-
-/* .banner .container {
-    position: relative;
-    background-image: url("../images/banner-bg.jpg");
-    background-size: cover;
-    background-position: center;
-} */
-
-.banner-text {
-    position: absolute;
-    top: 200px;
-    left: 64px;
 }
 
 .banner-text h2 {
-    margin-bottom: 8px;
-    font-size: 52px;
     color: #C7A07C;
+    text-shadow: 4px 4px 6px black;
 }
 
 .banner-text span {
     color: #96746b;
-}
-
-.banner-text p {
-    margin-bottom: 8px;
-    color: white;
+    text-shadow: 4px 4px 6px black;
 }
 
 .banner-text a {
-    display: inline-block;
-    padding: 16px;
     background-color: #322A27;
-    text-align: center;
-    color: white;
-    text-decoration: none;
 }
-
 
 /* ==== Heading (applied to all area of this page) ==== */
-.heading {
-    /* width: 480px; */
-    /* margin: 0 auto 16px; */
-}
-
 .heading span {
-    /* display: block;
-    text-align: center; */
     color: #c7a17a;
-    /* font-style: italic; */
-    /* margin-bottom: 8px; */
 }
 
 .heading h2 {
-    /* text-align: center; */
-    /* font-size: 24px; */
     color: #312a26;
-    /* margin-bottom: 8px; */
 }
 
 .heading hr {
     border-color: #c7a17a;
 }
 
-
-/* Ads Area (including Area 1 & 2) */
-.ads-area1 {
-    height: 320px;
-    margin-bottom: 64px;
+/* ==== Ads Area (including Area 1 & 2) ==== */
+.ad-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
 }
 
-.ads-area2 {
-    height: 640px;
-    margin-bottom: 64px;
-}
-
-.ads-container {
-    width: 1280px;
-    height: 320px;
-    margin: 0 auto;
-}
-
-.ad {
-    position: relative;
-    width: 50%;
-    height: 100%;
-    float: left;
-    padding: 16px;
-    box-sizing: border-box;
-}
-
-.ad-pic {
-    width: 100%;
-    height: 100%;
-}
-
-.ad1 {
+.ad1-image {
     background-image: url("../images/ads-img1.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
-.ad2 {
+.ad2-image {
     background-image: url("../images/ads-img2.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
-.ad3 {
+.ad3-image {
     background-image: url("../images/ads-img3.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
-.ad4 {
+.ad4-image {
     background-image: url("../images/ads-img4.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
-.ad5 {
+.ad5-image {
     background-image: url("../images/ads-img5.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
-.ad6 {
+.ad6-image {
     background-image: url("../images/ads-img6.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.ad-text {
-    position: absolute;
-    top: 100px;
-    left: 80px;
-    color: white;
 }
 
 .ad-text h3 {
-    font-size: 32px;
-    margin-bottom: 16px;
     text-shadow: 4px 4px 6px black;
 }
 
 .ad-text a {
-    color: white;
     text-shadow: 4px 4px 6px black;
 }
 
-
 /* ==== Merchandise ==== */
-.merchandise {
-    margin-bottom: 16px;
-}
 
-.items-container {
-    width: 1280px;
-    height: 400px;
-    margin: 0 auto;
-}
-
-.item {
-    float: left;
-    width: 25%;
-    height: 100%;
-    box-sizing: border-box;
-    padding: 8px;
-}
-
-.item img {
-    width: 100%; 
-}
-
-.item h3 {
-    font-size: 20px;
-    margin-bottom: 8px;
-}
-
-.item span {
-    display: block;
-}
 
 
 /* ==== Discount ==== */
-.discount {
-    height: 320px;
-    margin-bottom: 64px;
-}
-
 .discount-image {
+    height: 250px;
     background-image: url("../images/discount-img.jpg");
     background-size: cover;
     background-position: center;
-}
-
-.discount-container {
-    width: 1280px;
-    height: 100%;
-    margin: 0 auto;
-    background-color: gray;
-    background-image: url("../images/discount-img.jpg");
-    background-size: cover;
-    background-position: center;
-    position: relative;
 }
 
 .discount-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-}
-
-#discount-text1 {
-    font-style: italic;
-    margin-bottom: 8px;
-}
-
-#discount-text2 {
-    font-size: 32px;
-    margin-bottom: 8px;
     text-shadow: 4px 4px 6px black;
 }
 
 .discount-text button {
-    border: none;
     background-color: rgba(255, 255, 255, 0.5);
-    display: block;
-    width: 120px;
-    height: 40px;
-    padding: 8px;
-    margin: 0 auto;
 }
-
 
 /* ==== Sale ==== */
-.sale {
-    margin-bottom: 16px;
-}
 /* Styles in Sale section fallow ones in the Merchandise section */
 
-
 /* ==== Forms ==== */
-.forms {
-    height: 700px;
-    margin-bottom: 64px;
-}
-
-.forms form {
-    height: 640px;
-    /* Calculated by subtracting height of heading */
-} 
-
-.form-container {
-    width: 1280px;
-    height: 100%;
-    margin: 0 auto;
-}
-
-.form-sub-container {
-    box-sizing: border-box;
-    width: 50%;
-    height: 100%;
-    float: left;
-    padding: 8px;
-}
-
-.form-content {
-    box-sizing: border-box;
-    height: 100%;
-    padding: 32px;
+.form-items-container {
     background-color: #F2F2F2;
 }
 
-.form-content label {
-    display: inline-block;
-    margin-bottom: 8px;
-}
-
-.form-content input {
-    padding: 16px;
-    border-style: none;
-    display: block;
-    box-sizing: border-box;
-    width: 100%;
-    margin-bottom: 16px;
-}
-
-.form-content select {
-    padding: 16px;
-    border-style: none;
-    display: block;
-    box-sizing: border-box;
-    width: 100%;
-    margin-bottom: 16px;
-}
-
-.form-content textarea {
-    padding: 16px;
-    border-style: none;
-    display: block;
-    box-sizing: border-box;
-    width: 100%;
-    margin-bottom: 16px;
-    height: 160px;
-}
-
-.forms-heading {
-    padding: 8px 0 8px;
-    text-align: center;
-}
-
-
-.radio-container {
-    width: 260px;
-    margin: 0 auto;
-}
-
-/* Overwrite for radio buttons */
-#morning, #afternoon, #night {
-    display: inline-block;
-    width: 20px;
-    margin: 0;
-}
-
-#payment-title {
-    text-align: center;
-    font-size: 20px;
-    padding: 8px 0 4px;
-}
-
-#payment-cards {
-    display: block;
-    width: 160px;
-    margin: 0 auto 32px;
-}
-
-/* Overwrite for checkbox */
-#terms {
-    display: inline-block;
-    width: 20px;
-    margin: 0;
-}
-
-#send-button {
-    display: block;
-    width: 100%;
-    height: 36px;
-    border: none;
+button.form-send-button {
     background-color: #C7A17A;
 }
-
 
 /* ==== Info ==== */
 .info-bg-img {
@@ -481,7 +179,7 @@ header li a {
 
 #info3 p {
     margin-bottom: 24px;
-} 
+}
 
 #search {
     border-style: none;
@@ -508,7 +206,7 @@ footer {
 }
 
 footer .container {
-    background-color:  #19100f;
+    background-color: #19100f;
 }
 
 footer .logo {
