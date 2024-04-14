@@ -1,94 +1,92 @@
 /* ==== General Setting ==== */
 body {
-    width: 100vw;
-    height: 100vh;
-    font-family: sans-serif;
+  width: 100vw;
+  height: 100vh;
+  font-family: sans-serif;
 }
 
 .image-text-container {
-    color: white;
+  color: white;
 }
-
-
 
 /* ==== Navbar ==== */
 .navbar .navbar-brand {
-    color: #96746b;
-    font-weight: bold;
+  color: #96746b;
+  font-weight: bold;
 }
 
 /* ==== Banner ==== */
 .banner-image {
-    height: 400px;
-    background-image: url("../images/banner-bg.jpg");
-    background-position: center;
-    background-size: cover;
+  height: 400px;
+  background-image: url("../images/banner-bg.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 .banner-text h2 {
-    color: #C7A07C;
-    text-shadow: 4px 4px 6px black;
+  color: #C7A07C;
+  text-shadow: 4px 4px 6px black;
 }
 
 .banner-text span {
-    color: #96746b;
-    text-shadow: 4px 4px 6px black;
+  color: #96746b;
+  text-shadow: 4px 4px 6px black;
 }
 
 .banner-text a {
-    background-color: #322A27;
+  background-color: #322A27;
 }
 
 /* ==== Heading (applied to all area of this page) ==== */
 .heading span {
-    color: #c7a17a;
+  color: #c7a17a;
 }
 
 .heading h2 {
-    color: #312a26;
+  color: #312a26;
 }
 
 .heading hr {
-    border-color: #c7a17a;
+  border-color: #c7a17a;
 }
 
 /* ==== Ads Area (including Area 1 & 2) ==== */
 .ad-image {
-    height: 200px;
-    background-size: cover;
-    background-position: center;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
 }
 
 .ad1-image {
-    background-image: url("../images/ads-img1.jpg");
+  background-image: url("../images/ads-img1.jpg");
 }
 
 .ad2-image {
-    background-image: url("../images/ads-img2.jpg");
+  background-image: url("../images/ads-img2.jpg");
 }
 
 .ad3-image {
-    background-image: url("../images/ads-img3.jpg");
+  background-image: url("../images/ads-img3.jpg");
 }
 
 .ad4-image {
-    background-image: url("../images/ads-img4.jpg");
+  background-image: url("../images/ads-img4.jpg");
 }
 
 .ad5-image {
-    background-image: url("../images/ads-img5.jpg");
+  background-image: url("../images/ads-img5.jpg");
 }
 
 .ad6-image {
-    background-image: url("../images/ads-img6.jpg");
+  background-image: url("../images/ads-img6.jpg");
 }
 
 .ad-text h3 {
-    text-shadow: 4px 4px 6px black;
+  text-shadow: 4px 4px 6px black;
 }
 
 .ad-text a {
-    text-shadow: 4px 4px 6px black;
+  text-shadow: 4px 4px 6px black;
 }
 
 /* ==== Merchandise ==== */
@@ -97,18 +95,18 @@ body {
 
 /* ==== Discount ==== */
 .discount-image {
-    height: 250px;
-    background-image: url("../images/discount-img.jpg");
-    background-size: cover;
-    background-position: center;
+  height: 250px;
+  background-image: url("../images/discount-img.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .discount-text {
-    text-shadow: 4px 4px 6px black;
+  text-shadow: 4px 4px 6px black;
 }
 
 .discount-text button {
-    background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 /* ==== Sale ==== */
@@ -116,131 +114,39 @@ body {
 
 /* ==== Forms ==== */
 .form-items-container {
-    background-color: #F2F2F2;
+  background-color: #F2F2F2;
 }
 
 button.form-send-button {
-    background-color: #C7A17A;
+  background-color: #C7A17A;
 }
 
 /* ==== Info ==== */
 .info-bg-img {
-    background-image: url("../images/footer-img.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.info {
-    height: 300px;
-}
-
-.info .container {
-    background-image: url("../images/footer-img.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.info-container {
-    color: white;
-    float: left;
-    width: 240px;
-    margin-top: 32px;
-    margin-left: 64px;
-}
-
-.info-container h3 {
-    font-size: 20px;
-    margin-bottom: 16px;
-    text-transform: uppercase;
-}
-
-.info-container h4 {
-    font-size: 18px;
-    margin-bottom: 4px;
+  background-image: url("../images/footer-img.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .info-container p {
-    color: #958876;
-    margin-bottom: 8px;
+  color: #958876;
 }
 
-.info-container table {
-    border-collapse: separate;
-    border-spacing: 0 6px;
+.info-table th,
+.info-table td {
+  background-color: transparent;
 }
 
-.info-container thead {
-    font-weight: bold;
+.search-button {
+  background-color: #C5A17B;
 }
-
-#info3 {
-    width: 256px;
-}
-
-#info3 p {
-    margin-bottom: 24px;
-}
-
-#search {
-    border-style: none;
-    box-sizing: border-box;
-    width: 140px;
-    padding: 8px;
-}
-
-#search-btn {
-    border-style: none;
-    background-color: #C5A17B;
-    box-sizing: border-box;
-    width: 80px;
-    padding: 8px;
-}
-
 
 /* ==== Footer ==== */
-footer {
-    height: 48px;
-    color: white;
-    line-height: 48px;
-    text-align: center;
+.footer-bg-color {
+  background-color: #19100f;
 }
 
-footer .container {
-    background-color: #19100f;
-}
-
-footer .logo {
-    /* width: 480px;
-    float: left;
-    font-size: 24px;
-    font-weight: bold; */
-}
-
-footer .logo a {
-    /* text-decoration: none;
-    color: white; */
-}
-
-footer .sns-links {
-    /* width: 480px; */
-    /* height: 100%; */
-    /* float: left; */
-}
-
-footer .sns-links a {
-    /* display: inline-block;
-    width: 32px;
-    height: 32px;
-    margin-top: 8px;
-    margin-bottom: 8px; */
-}
-
-footer .sns-links img {
-    /* display: inline-block;
-    width: 32px; */
-}
-
-footer .copyright {
-    /* width: 480px;
-    float: left; */
+.sns-links img {
+  width: 32px;
+  height: 32px;
 }

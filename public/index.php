@@ -1,7 +1,5 @@
 <?php
 
-
-
 ?>
 
 <!DOCTYPE html>
@@ -24,7 +22,7 @@
     <nav class="navbar navbar-expand-md navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="#">COFFEE BEAN</a>
-            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler d-lg-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavId">
@@ -54,7 +52,6 @@
         <div class="row">
             <div class="col image-text-container">
                 <div class="banner-image d-flex justify-content-center align-items-center">
-                    <!-- <div class="w-50 mx-auto banner-text"> -->
                     <div class="banner-text p-3">
                         <h2 class="display-3">UNIQUELY <span id="banner-text-color">FRESH TASTE</span></h2>
                         <p>Try our tasty coffee bean. produced with unique taste.</p>
@@ -349,9 +346,7 @@
                     <!-- PAYMENT -->
                     <div class="row mb-3">
                         <h4 class="m-0 fs-6 fw-bold text-center">PAYMENT</h4>
-                        <!-- <div class="w-50 mx-auto"> -->
                         <img class="image-fluid w-50 mx-auto" id="payment-cards" src="images/reservation-cards.png" alt="reservation-cards">
-                        <!-- </div> -->
                     </div>
 
                     <!-- Heading -->
@@ -373,7 +368,7 @@
 
                     <!-- Terms -->
                     <div class="form-check form-check-inline mb-3">
-                        <input class="form-check-input" type="checkbox" id="terms" name="terms" >
+                        <input class="form-check-input" type="checkbox" id="terms" name="terms">
                         <label class="form-check-label" for="terms">I agree in the terms and conditions.</label>
                     </div>
 
@@ -387,137 +382,165 @@
     </form>
 
     <!-- Info -->
-    <div class="container-fluid info-bg-img">
-        <div class="container">
-            <div class="row g-3">
+    <div class="container-fluid info-bg-img text-white">
+        <div class="container info-container">
+            <div class="row py-4 g-3">
+
                 <!-- Opening Hours -->
-                <div class="col-6 col-md-3">
-                    <h3>Opening Hours</h3>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Day</th>
-                                <th>........</th>
-                                <th>Availability</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Monday</td>
-                                <td>........</td>
-                                <td>Closed</td>
-                            </tr>
-                            <tr>
-                                <td>Tuesday</td>
-                                <td>........</td>
-                                <td>9:00-22:00</td>
-                            </tr>
-                            <tr>
-                                <td>Wednesday</td>
-                                <td>........</td>
-                                <td>Closed</td>
-                            </tr>
-                            <tr>
-                                <td>Thursday</td>
-                                <td>........</td>
-                                <td>9:00-22:00</td>
-                            </tr>
-                            <tr>
-                                <td>Friday</td>
-                                <td>........</td>
-                                <td>9:00-22:00</td>
-                            </tr>
-                            <tr>
-                                <td>Saturday</td>
-                                <td>........</td>
-                                <td>9:00-22:00</td>
-                            </tr>
-                            <tr>
-                                <td>Sunday</td>
-                                <td>........</td>
-                                <td>9:00-22:00</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="col-md-6 col-lg-3 pb-3">
+                    <h3 class="mb-3 fs-5 fw-bold">Opening Hours</h3>
+
+                    <div class="table-responsive">
+                        <table class="table table-dark table-sm table-borderless info-table">
+                            <thead>
+                                <tr class="fw-bold">
+                                    <th class="text-center" scope="col">Day</th>
+                                    <th scope="col">........</th>
+                                    <th scope="col">Availability</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Monday</td>
+                                    <td>........</td>
+                                    <td>Closed</td>
+                                </tr>
+                                <tr>
+                                    <td>Tuesday</td>
+                                    <td>........</td>
+                                    <td>9:00-22:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Wednesday</td>
+                                    <td>........</td>
+                                    <td>Closed</td>
+                                </tr>
+                                <tr>
+                                    <td>Thursday</td>
+                                    <td>........</td>
+                                    <td>9:00-22:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Friday</td>
+                                    <td>........</td>
+                                    <td>9:00-22:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Saturday</td>
+                                    <td>........</td>
+                                    <td>9:00-22:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Sunday</td>
+                                    <td>........</td>
+                                    <td>9:00-22:00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
                 </div>
 
                 <!-- Latest Post -->
-                <div class="col-6 col-md-3">
-                    <h3>Latest Post</h3>
-                    <h4>Expand your Mind. Change Everything</h4>
-                    <p>20-Mar-2024</p>
-                    <h4>Places to Get Lost</h4>
-                    <p>18-Mar-2024</p>
-                    <h4>How to Brew Aromatic Coffee</h4>
-                    <p>15-Mar-2024</p>
-                    <h4>Elevate your Expectation</h4>
-                    <p>12-Mar-2024</p>
+                <div class="col-md-6 col-lg-3 pb-3">
+                    <h3 class="mb-3 fs-5 fw-bold">Latest Post</h3>
+                    <div class="mb-1">
+                        <h4 class="fs-6 fw-bold m-0">Expand your Mind. Change Everything</h4>
+                        <p class="m-0">20-Mar-2024</p>
+                    </div>
+                    <div class="mb-1">
+                        <h4 class="fs-6 fw-bold m-0">Places to Get Lost</h4>
+                        <p class="m-0">18-Mar-2024</p>
+                    </div>
+                    <div class="mb-1">
+                        <h4 class="fs-6 fw-bold m-0">How to Brew Aromatic Coffee</h4>
+                        <p class="m-0">15-Mar-2024</p>
+                    </div>
+                    <div class="mb-1">
+                        <h4 class="fs-6 fw-bold m-0">Elevate your Expectation</h4>
+                        <p class="m-0">12-Mar-2024</p>
+                    </div>
                 </div>
 
                 <!-- Contact us -->
-                <div class="col-6 col-md-3">
-                    <h3>Contact us</h3>
-                    <p>
-                        info@xxxxxxxx.com<br>
-                        1-444-123-xxxx<br>
-                        Xxxx Boulevard 224. New York
-                    </p>
-                    <h3>The last standard post</h3>
-                    <form action="#">
-                        <input type="text" name="search" id="search">
-                        <button id="search-btn">SEARCH</button>
-                    </form>
+                <div class="col-md-6 col-lg-3 pb-3">
+                    <!-- Contact us -->
+                    <div class="row pb-3">
+                        <h3 class="mb-3 fs-5 fw-bold">Contact us</h3>
+                        <p>
+                            info@xxxxxxxx.com<br>
+                            1-444-123-xxxx<br>
+                            Xxxx Boulevard 224. New York
+                        </p>
+                    </div>
+
+                    <!-- The last standard post -->
+                    <div class="row">
+                        <h3 class="mb-3 fs-5 fw-bold">The last standard post</h3>
+                        <form action="#">
+                            <div class="row">
+                                <div class="col-8 col-lg-12 mb-1">
+                                    <input type="text" class="form-control" name="search" id="search">
+                                </div>
+                                <div class="col-4 col-lg-12 mb-1">
+                                    <button class="btn btn-light text-dark border-0 w-100 search-button">SEARCH</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
 
                 <!-- Other locations -->
-                <div class="col-6 col-md-3">
-                    <h3>Other locations</h3>
-                    <h4>Coffee Bean Philippines</h4>
-                    <p>
-                        1234 Xxxx Park<br>
-                        Cebu City
-                    </p>
-                    <h4>Coffee Bean Japan</h4>
-                    <p>
-                        1234 Xxxxxxx<br>
-                        Xxxx City, Tokyo, Japan
-                    </p>
+                <div class="col-md-6 col-lg-3 pb-3">
+                    <h3 class="mb-3 fs-5 fw-bold">Other locations</h3>
+
+                    <div class="mb-1">
+                        <h4 class="fs-6 fw-bold m-0">Coffee Bean Philippines</h4>
+                        <p class="m-0">
+                            1234 Xxxx Park<br>
+                            Cebu City
+                        </p>
+                    </div>
+
+                    <div class="mb-1">
+                        <h4 class="fs-6 fw-bold m-0">Coffee Bean Japan</h4>
+                        <p class="m-0">
+                            1234 Xxxxxxx<br>
+                            Xxxx City, Tokyo, Japan
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Footer -->
-    <div class="container-fluid" style="background-color: #19100f">
-        <div class="container">
+    <div class="container-fluid footer-bg-color text-white text-center">
+        <div class="container py-2">
             <div class="row">
                 <!-- Logo -->
-                <div class="col-md-4">
-                    <div class="logo">
-                        <a href="#">COFFEE BEAN</a>
-                    </div>
+                <div class="col-md-4 d-flex justify-content-center align-items-center py-2">
+                    <a href="#" class="text-decoration-none text-white fs-5 fw-bold ">COFFEE BEAN</a>
                 </div>
 
                 <!-- SNS-links -->
-                <div class="col-md-4">
+                <div class="col-md-4 d-flex justify-content-center align-items-center py-2">
                     <div class="sns-links">
-                        <a href="https://www.facebook.com/" target="_blank">
-                            <img class="img-fluid" src="images/icon-fb.png" alt="" style="width: 32px;">
+                        <a href="https://www.facebook.com/" target="_blank" class="d-inline-block">
+                            <img class="img-fluid" src="images/icon-fb.png" alt="">
                         </a>
-                        <a href="https://www.instagram.com/" target="_blank">
-                            <img src="images/icon-ig.png" alt="" style="width: 32px;">
+                        <a href="https://www.instagram.com/" target="_blank" class="d-inline-block">
+                            <img src="images/icon-ig.png" alt="">
                         </a>
-                        <a href="https://twitter.com/" target="_blank">
-                            <img src="images/icon-tw.png" alt="" style="width: 32px;">
+                        <a href="https://twitter.com/" target="_blank" class="d-inline-block">
+                            <img src="images/icon-tw.png" alt="">
                         </a>
                     </div>
                 </div>
 
                 <!-- Copyright -->
-                <div class="col-md-4">`
-                    <div class="copyright">
-                        <p>&copy; 2024 | xxxxxxxx (Coded by Yasuhiro W)</p>
-                    </div>
+                <div class="col-md-4 d-flex justify-content-center align-items-center py-2">
+                    <p class="m-0">&copy; 2024 | Yasuhiro W</p>
                 </div>
             </div>
         </div>
