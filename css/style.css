@@ -18,6 +18,7 @@ body {
 /* ==== Banner ==== */
 .banner-image {
   height: 400px;
+  /* background-image: url("../images/banner-bg.jpg"); */
   background-image: url("../images/banner-bg.jpg");
   background-position: center;
   background-size: cover;
